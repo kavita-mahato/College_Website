@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      University College of Engineering and Technology - UCET Hazaribagh
+    </title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="top-bar">
+        <div class="container">
+          <div class="top-links">
+            <a href="#"><i class="fas fa-globe"></i> Old Website</a>
+            <a href="#"><i class="fas fa-user-graduate"></i> IMS</a>
+            <a href="#"><i class="fas fa-sign-in-alt"></i> Login</a>
+            <a href="#"><i class="fas fa-building"></i> e-Office</a>
+            <a href="#"><i class="fas fa-chart-line"></i> Samarth-eGov</a>
+          </div>
+          <div class="search-box">
+            <input
+              type="text"
+              placeholder="Search courses, faculty, events..."
+            />
+            <button type="submit"><i class="fas fa-search"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <nav class="main-nav">
+        <div class="container">
+          <div class="logo">
+            <img src="logo.png" alt="UCET Hazaribagh Logo" />
+            <div class="logo-text">
+              <span class="logo-main">UCET Hazaribagh</span>
+            </div>
+          </div>
+
+          <ul class="nav-menu">
+            <li>
+              <a href="#home"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li class="dropdown">
+              <a href="#institute"
+                ><i class="fas fa-university"></i> Institute
+                <i class="fas fa-chevron-down"></i
+              ></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-history"></i> History & Heritage</a
+                  >
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-info-circle"></i> About Us</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-eye"></i> Mission & Vision</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-award"></i> Quality Policy</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-trophy"></i> Achievements</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#administration"
+                ><i class="fas fa-users-cog"></i> Administration
+                <i class="fas fa-chevron-down"></i
+              ></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-sitemap"></i> Governing Bodies</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-user-tie"></i> Director's Profile</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-comment"></i> Director's Message</a
+                  >
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-user-shield"></i> Registrar</a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-chalkboard-teacher"></i> Deans</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#departments"
+                ><i class="fas fa-microchip"></i> Departments
+                <i class="fas fa-chevron-down"></i
+              ></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-laptop-code"></i> Computer Science &
+                    Engineering</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-bolt"></i> Electrical Engineering</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-cogs"></i> Mechanical Engineering</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-building"></i> Information Technology</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-atom"></i> Artificial Intelligence and
+                    Machine Learning</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#academics"
+                ><i class="fas fa-graduation-cap"></i> Academics
+                <i class="fas fa-chevron-down"></i
+              ></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#"><i class="fas fa-users"></i> Academic Team</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-user-plus"></i> Admissions</a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-money-bill-wave"></i> Fee Structure</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fas fa-calendar-alt"></i> Academic Calendar</a
+                  >
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-book"></i> Course Curriculum</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+            </li>
+          </ul>
+
+          <div class="mobile-menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section with Image Slider -->
+    <section class="hero" id="home">
+      <div class="hero-slider">
+        <div class="slide active">
+          <div class="slide-background" style="background-image: url('ucet.jpg');"></div>
+          <div class="slide-overlay"></div>
+        </div>
+        <div class="slide">
+          <div class="slide-background" style="background-image: url('college.jpeg');"></div>
+          <div class="slide-overlay"></div>
+        </div>
+        <div class="slide">
+          <div class="slide-background" style="background-image: url('hero2.jpg');"></div>
+          <div class="slide-overlay"></div>
+        </div>
+        <div class="slide">
+          <div class="slide-background" style="background-image: url('ucetOld.jpg');"></div>
+          <div class="slide-overlay"></div>
+        </div>
+      </div>
+
+      <!-- Hero Navigation -->
+      <div class="hero-nav">
+        <button class="nav-btn prev-btn" id="heroPrev">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="nav-btn next-btn" id="heroNext">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+
+      <!-- Hero Dots -->
+      <div class="hero-dots">
+        <span class="dot active" data-slide="0"></span>
+        <span class="dot" data-slide="1"></span>
+        <span class="dot" data-slide="2"></span>
+        <span class="dot" data-slide="3"></span>
+      </div>
+
+      <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="container">
+          <div class="hero-text">
+            <h1 class="hero-title">
+              <span class="title-line">Welcome to</span>
+              <span class="title-main">UCET Hazaribagh</span>
+              <span class="title-sub"
+                >University College of Engineering and Technology</span
+              >
+            </h1>
+            <p class="hero-description">
+              Shaping Future Engineers with Excellence, Innovation, and
+              Leadership
+            </p>
+            <div class="hero-buttons">
+              <a href="#about" class="cta-btn primary">Explore Campus</a>
+              <a href="#departments" class="cta-btn secondary">View Programs</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Stats Bar -->
+    <section class="quick-stats">
+      <div class="container">
+        <div class="stats-bar">
+          <div class="stat-item">
+            <i class="fas fa-users"></i>
+            <div class="stat-content">
+              <span class="stat-number" data-target="2500">0</span>
+              <span class="stat-label">Active Students</span>
+            </div>
+          </div>
+          <div class="stat-item">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <div class="stat-content">
+              <span class="stat-number" data-target="200">0</span>
+              <span class="stat-label">Expert Faculty</span>
+            </div>
+          </div>
+          <div class="stat-item">
+            <i class="fas fa-microchip"></i>
+            <div class="stat-content">
+              <span class="stat-number" data-target="5">0</span>
+              <span class="stat-label">Departments</span>
+            </div>
+          </div>
+          <div class="stat-item">
+            <i class="fas fa-trophy"></i>
+            <div class="stat-content">
+              <span class="stat-number" data-target="30">0</span>
+              <span class="stat-label">Awards Won</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section with Image Slider -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About UCET Hazaribagh</h2>
+          <p class="section-subtitle">
+            Excellence in Engineering Education Since 2010
+          </p>
+          <div class="title-underline"></div>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <div class="about-card first">
+              <div class="card-icon">
+                <i class="fas fa-university"></i>
+              </div>
+              <h3>Our Institution</h3>
+              <p>
+                University College of Engineering and Technology Hazaribagh
+                (UCETH) is a premier autonomous institution established in 2010
+                by an Act of Parliament. We are committed to providing
+                world-class engineering education and fostering innovation.
+              </p>
+            </div>
+            <div class="about-card second">
+              <div class="card-icon">
+                <i class="fas fa-bullseye"></i>
+              </div>
+              <h3>Our Mission</h3>
+              <p>
+                To develop competent engineers with strong technical skills,
+                ethical values, and leadership qualities who can contribute to
+                the nation's technological advancement and global
+                competitiveness.
+              </p>
+            </div>
+            <div class="about-card third">
+              <div class="card-icon">
+                <i class="fas fa-eye"></i>
+              </div>
+              <h3>Our Vision</h3>
+              <p>
+                To be a globally recognized institution of higher learning,
+                known for excellence in engineering education, research, and
+                innovation, producing leaders who shape the future of
+                technology.
+              </p>
+            </div>
+          </div>
+          <div class="about-slider">
+            <div class="slider-container">
+              <div class="about-slide active">
+                <img src="interiorCollege.jpg" alt="Campus Building">
+                <div class="slide-content">
+                  <h4>Modern learning</h4>
+                  <p>State-of-the-art facilities for holistic learning</p>
+                </div>
+              </div>
+              <div class="about-slide">
+                <img src="workshopInside.jpg" alt="Research Lab">
+                <div class="slide-content">
+                  <h4>Laboratories</h4>
+                  <p>Cutting-edge learning and development facilities</p>
+                </div>
+              </div>
+              <div class="about-slide">
+                <img src="library.jpg" alt="Library">
+                <div class="slide-content">
+                  <h4>Library</h4>
+                  <p>Extensive collection of books and other resources</p>
+                </div>
+              </div>
+            </div>
+            <div class="slider-controls">
+              <button class="slider-btn prev" id="aboutPrev">
+                <i class="fas fa-chevron-left"></i>
+              </button>
+              <button class="slider-btn next" id="aboutNext">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+            <div class="slider-dots">
+              <span class="dot active" data-slide="0"></span>
+              <span class="dot" data-slide="1"></span>
+              <span class="dot" data-slide="2"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Director's Message -->
+    <section class="director-message">
+      <div class="container">
+        <div class="message-content">
+          <div class="section-header">
+            <h2 class="section-title">Director's Message</h2>
+            <p class="section-subtitle">Leadership & Vision</p>
+            <div class="title-underline"></div>
+          </div>
+          <div class="director-info">
+            <div class="director-profile">
+              <img src="director.jpg" alt="Director" class="director-img" />
+              <div class="director-details">
+                <h3>Prof. Dr. Ashish Kumar Saha</h3>
+                <p class="designation">Director, UCET Hazaribagh</p>
+                <p class="qualification">
+                  Ph.D. in Computer Science, IIT Delhi
+                </p>
+                <div class="director-social">
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fas fa-envelope"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="message-text">
+              <p class="message-intro">
+                "Welcome to UCET Hazaribagh, where innovation meets excellence!"
+              </p>
+              <p>
+                Greetings and warm welcome to all at University College of
+                Engineering and Technology Hazaribagh, India. UCET Hazaribagh is
+                one of the premier autonomous institutions of national
+                importance under the aegis of the Ministry of Education,
+                Government of India.
+              </p>
+              <p>
+                Our institution was established in 2010 with state-of-the-art
+                infrastructure and world-class faculty. We are committed to
+                providing quality education, fostering research and innovation,
+                and developing globally competent engineers who contribute
+                meaningfully to society.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Departments Section -->
+    <section class="departments" id="departments">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Our Departments</h2>
+          <p class="section-subtitle">
+            Engineering Excellence Across Multiple Disciplines
+          </p>
+          <div class="title-underline"></div>
+        </div>
+        <div class="dept-grid">
+          <div class="dept-card">
+            <div class="card-icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <h3>Computer Science & Engineering</h3>
+            <p>Cutting-edge curriculum in software development, AI, and data science</p>
+            <a href="#" class="dept-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+          <div class="dept-card">
+            <div class="card-icon">
+              <i class="fas fa-bolt"></i>
+            </div>
+            <h3>Electrical Engineering</h3>
+            <p>Power systems, electronics, and renewable energy technologies</p>
+            <a href="#" class="dept-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+          <div class="dept-card">
+            <div class="card-icon">
+              <i class="fas fa-cogs"></i>
+            </div>
+            <h3>Mechanical Engineering</h3>
+            <p>Advanced manufacturing, robotics, and thermal engineering</p>
+            <a href="#" class="dept-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+          <div class="dept-card">
+            <div class="card-icon">
+              <i class="fas fa-building"></i>
+            </div>
+            <h3>Information Technology</h3>
+            <p>Network systems, cybersecurity, and cloud computing</p>
+            <a href="#" class="dept-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+          <div class="dept-card">
+            <div class="card-icon">
+              <i class="fas fa-atom"></i>
+            </div>
+            <h3>AI & Machine Learning</h3>
+            <p>Next-generation artificial intelligence and deep learning</p>
+            <a href="#" class="dept-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Notice Board Section with Carousel -->
+    <section class="notice-board">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Notice Board</h2>
+          <p class="section-subtitle">Latest Updates and Announcements</p>
+          <div class="title-underline"></div>
+        </div>
+        
+        <div class="notice-filters">
+          <button class="notice-filter active" data-filter="all">All</button>
+          <button class="notice-filter" data-filter="academic">Academic</button>
+          <button class="notice-filter" data-filter="admission">Admission</button>
+          <button class="notice-filter" data-filter="events">Events</button>
+          <button class="notice-filter" data-filter="exam">Examinations</button>
+        </div>
+
+        <div class="notice-carousel">
+          <div class="notice-track">
+            <div class="notice-item" data-category="academic">
+              <div class="notice-date">
+                <span class="day">15</span>
+                <span class="month">Aug</span>
+              </div>
+              <div class="notice-content">
+                <h4>Academic Session 2024-25 Begins</h4>
+                <p>Classes for the new academic session will commence from August 15, 2024. All students are advised to complete their registration process.</p>
+                <span class="notice-tag academic">Academic</span>
+              </div>
+            </div>
+            
+            <div class="notice-item" data-category="admission">
+              <div class="notice-date">
+                <span class="day">20</span>
+                <span class="month">Aug</span>
+              </div>
+              <div class="notice-content">
+                <h4>Admission Open for B.Tech Programs</h4>
+                <p>Applications are now open for B.Tech programs. Last date for application submission is September 30, 2024.</p>
+                <span class="notice-tag admission">Admission</span>
+              </div>
+            </div>
+            
+            <div class="notice-item" data-category="events">
+              <div class="notice-date">
+                <span class="day">25</span>
+                <span class="month">Aug</span>
+              </div>
+              <div class="notice-content">
+                <h4>Annual Tech Fest - Technova 2024</h4>
+                <p>Join us for the biggest technical festival featuring competitions, workshops, and guest lectures from industry experts.</p>
+                <span class="notice-tag events">Events</span>
+              </div>
+            </div>
+            
+            <div class="notice-item" data-category="exam">
+              <div class="notice-date">
+                <span class="day">30</span>
+                <span class="month">Aug</span>
+              </div>
+              <div class="notice-content">
+                <h4>Mid-Term Examination Schedule</h4>
+                <p>Mid-term examinations for all departments will be conducted from September 15-25, 2024. Check detailed schedule on the portal.</p>
+                <span class="notice-tag exam">Exam</span>
+              </div>
+            </div>
+            
+            <div class="notice-item" data-category="academic">
+              <div class="notice-date">
+                <span class="day">05</span>
+                <span class="month">Sep</span>
+              </div>
+              <div class="notice-content">
+                <h4>Faculty Development Program</h4>
+                <p>A week-long faculty development program on "Emerging Technologies in Engineering Education" starts September 5, 2024.</p>
+                <span class="notice-tag academic">Academic</span>
+              </div>
+            </div>
+            
+            <div class="notice-item" data-category="events">
+              <div class="notice-date">
+                <span class="day">10</span>
+                <span class="month">Sep</span>
+              </div>
+              <div class="notice-content">
+                <h4>Industry-Academia Meet</h4>
+                <p>Annual industry-academia interaction session with leading companies for placement and internship opportunities.</p>
+                <span class="notice-tag events">Events</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="notice-controls">
+            <button class="notice-btn prev" id="noticePrev">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="notice-btn next" id="noticeNext">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Campus Life Section -->
+    <section class="campus-life">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Campus Life</h2>
+          <p class="section-subtitle">Experience Beyond Academics</p>
+          <div class="title-underline"></div>
+        </div>
+        <div class="campus-grid">
+          <div class="campus-item">
+            <img src="activity1.jpg" alt="Student Activities">
+            <div class="campus-overlay">
+              <h4>Student Activities</h4>
+              <p>Vibrant clubs and societies for holistic development</p>
+            </div>
+          </div>
+          <div class="campus-item">
+            <img src="sports.jpg" alt="Sports Facilities">
+            <div class="campus-overlay">
+              <h4>Sports Facilities</h4>
+              <p>Modern sports complex with indoor and outdoor facilities</p>
+            </div>
+          </div>
+          <div class="campus-item">
+            <img src="cultural.jpg" alt="Cultural Events">
+            <div class="campus-overlay">
+              <h4>Cultural Events</h4>
+              <p>Rich cultural heritage and festive celebrations</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Campus Gallery</h2>
+          <p class="section-subtitle">Explore Our Beautiful Campus</p>
+          <div class="title-underline"></div>
+        </div>
+        <div class="gallery-slider">
+          <div class="gallery-track">
+            <div class="gallery-slide active">
+              <img src="img1.jpg" alt="UCET Campus Main Building">
+              <div class="gallery-overlay">
+                <h4>Main Campus Building</h4>
+                <p>Modern architectural design with state-of-the-art facilities</p>
+              </div>
+            </div>
+            <div class="gallery-slide">
+              <img src="img2.jpg" alt="Computer Lab">
+              <div class="gallery-overlay">
+                <h4>Computer Laboratory</h4>
+                <p>Advanced computing facilities with latest technology</p>
+              </div>
+            </div>
+            <div class="gallery-slide">
+              <img src="img3.jpg" alt="Engineering Lab">
+              <div class="gallery-overlay">
+                <h4>Engineering Workshop</h4>
+                <p>Hands-on learning with modern equipment and tools</p>
+              </div>
+            </div>
+            <div class="gallery-slide">
+              <img src="img4.jpg" alt="Library">
+              <div class="gallery-overlay">
+                <h4>Central Library</h4>
+                <p>Extensive collection of books and digital resources</p>
+              </div>
+            </div>
+            <div class="gallery-slide">
+              <img src="img5.jpg" alt="Sports Complex">
+              <div class="gallery-overlay">
+                <h4>Sports Complex</h4>
+                <p>Indoor and outdoor sports facilities for student wellness</p>
+              </div>
+            </div>
+            <div class="gallery-slide">
+              <img src="img6.jpg" alt="Student Hostel">
+              <div class="gallery-overlay">
+                <h4>Student Hostel</h4>
+                <p>Comfortable residential facilities with modern amenities</p>
+              </div>
+            </div>
+            <div class="gallery-slide">
+              <img src="img7.jpg" alt="Auditorium">
+              <div class="gallery-overlay">
+                <h4>Main Auditorium</h4>
+                <p>Modern auditorium for events, seminars, and cultural programs</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="gallery-controls">
+            <button class="gallery-btn prev" id="galleryPrev">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="gallery-btn next" id="galleryNext">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+          
+          <div class="gallery-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+            <span class="dot" data-slide="3"></span>
+            <span class="dot" data-slide="4"></span>
+            <span class="dot" data-slide="5"></span>
+            <span class="dot" data-slide="6"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>UCET Hazaribagh</h4>
+            <p>University College of Engineering and Technology, Hazaribagh is committed to excellence in engineering education and research.</p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#departments">Departments</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#">Admissions</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Academics</h4>
+            <ul>
+              <li><a href="#">B.Tech Programs</a></li>
+              <li><a href="#">Annual Reports</a></li>
+              <li><a href="#">Academic Calender</a></li>
+              <li><a href="#">RTI</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Contact Info</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Hazaribagh, Jharkhand</p>
+            <p><i class="fas fa-phone"></i> +91-6546-244525</p>
+            <p><i class="fas fa-envelope"></i> info@uceth.ac.in</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 UCET Hazaribagh. All rights reserved.</p>
+          <P class="developers">Designed & Developed by <u>Team Code Blooded</u></P>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
